@@ -1,0 +1,17 @@
+section.work
+  .container
+    +blockBox("What we do", "Some of our work", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.")
+  .work-list
+    .work-column
+      +workItem("./images/img-work1.png")
+      +workItem("./images/img-work2.png")
+    .work-column 
+      +workItem("./images/img-work3.png")
+      +workItem("./images/img-work4.png")
+    .work-column 
+      //- .work-item.work-item--full  
+      +workItem("./images/img-work5.png","fa fa-home", "Creatively designed", "work-item--full")
+    .work-column 
+      +workItem("./images/img-work6.png")
+      +workItem("./images/img-work7.png")
+
